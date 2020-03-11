@@ -1,0 +1,127 @@
+*
+{
+    max-width: 100%;
+}
+html *
+{
+    font-family: Georgia, Serif;
+}
+body
+{
+    background-color: whitesmoke !important;
+}
+footer
+{
+    background-color: #1b346d;
+}
+footer a
+{
+    color: white;
+}
+footer a:hover
+{
+    color: gold;
+}
+footer h6
+{
+    color: gold;
+}
+footer p
+{
+    color: white;
+}
+nav
+{
+    background-color: #1b346d;
+}
+nav a
+{
+    color: white !important;
+    font-weight: bold;
+}
+nav a:hover
+{
+    color: gold !important;
+}
+.navbar-brand
+{
+    color: gold !important;
+    font-weight: bold;
+}
+.dropdown-menu
+{
+    background-color: #1b346d !important;
+}
+.dropdown-item:hover
+{
+    background-color: transparent !important;
+}
+.Form h3
+{
+    font-weight: bold;
+}
+.About_Us_Body
+{
+    margin-top: 5%;
+    margin-left: 5%;
+    max-width: 90%;
+}
+.Chart
+{
+    height: 370px;
+    width: 100%;
+}
+.Nav_Bar_Full_Name
+{
+    display: inline;
+}
+/*********************************************************************************************************************************************/
+#sidebar-wrapper
+{
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading
+{
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group
+{
+    width: 15rem;
+}
+
+#page-content-wrapper
+{
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper
+{
+    margin-left: 0;
+}
+
+@media (min-width: 768px)
+{
+    #sidebar-wrapper
+    {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper
+    {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper
+    {
+        margin-left: -15rem;
+    }
+}
